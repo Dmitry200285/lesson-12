@@ -1,0 +1,179 @@
+@font-face {
+  font-family: "Graphik";
+  src: url("./GraphikLCG-Regular.ttf") format('woff2');
+}
+
+hr {
+  color:#cccccc;
+  margin: 0;
+}
+
+body {
+  font-family: "Graphik";
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  margin: auto;
+  width: 1440px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 535px;
+  list-style: none;
+}
+
+
+.menu__items a {
+  color: black;
+  text-decoration: none;
+}
+
+.login_buttons {
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+}
+
+.log_in-button {
+  border: 1px solid black;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px 0;
+  width: 120px;
+}
+
+.try_it-button {
+  font-weight: bold;
+  background:#FF6336;
+  color: white;
+  text-align: center;
+  padding: 12px 0;
+  width: 120px;
+}
+
+.section_two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 130px 0;
+}
+
+.accelerate_paragraph {
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 70px;
+}
+
+.a_localization_paragraph {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  width: 470px;
+}
+
+.try_all_paragraph {
+  font-size: 15px;
+  margin-top: 25px;
+}
+
+.buttons_pg2 {
+  display: flex;
+  width: 380px;
+  justify-content: space-between;
+}
+
+.try_it-button_2 {
+  font-weight: bold;
+  background:#FF6336;
+  color: white;
+  text-align: center;
+  padding: 20px 12px;
+  width: 160px;
+}
+
+.book_a_demo {
+  border: 1px solid black;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 12px;
+  width: 160px;
+}
+
+.orange_section {
+  background: #FF9C7D;
+}
+
+.orange_paragraph {
+  padding-top: 110px;
+  text-align: center;
+  font-size: 50px;
+  line-height: 60px;
+  width: 700px;
+  margin: 0 350px;
+}
+
+.brends_local {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 100px;
+}
+
+.section_third {
+  display: flex;
+}
+
+.first_block {
+  margin-top: 240px;
+}
+
+.control_loc {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+  width: 500px;
+}
+
+.collaborate_loc {
+  font-weight: 400px;
+  font-size: 20px;
+  line-height: 30px;
+  width: 500px;
+  margin-right: 170px;
+}
+
+.start_loc {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.project_app {
+  width: 630px;
+  height: 630px;
+  margin-top: 90px;
+}
+
+.icons {
+  width: 630px;
+  height: 630px;
+}
