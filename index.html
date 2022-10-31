@@ -5,14 +5,29 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="normalize.css">
+  <!--<link rel="stylesheet" href="normalize.css">!-->
   <title>Flex Maket</title>
 </head>
 <body>
     <div class="container">
       <div class="head">
         <div class="navigation">
-          <a href="#"><img src="./images/Logo.svg" alt="logotype"></a>
+          <a href="#"><img src="./images/Logo.svg" alt="logotype" id="lokalise"></a>
+
+          <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+            <ul class="menu__box">
+              <li><a class="menu__item" href="#">Product</a></li>
+              <li><a class="menu__item" href="#">Features</a></li>
+              <li><a class="menu__item" href="#">Pricing</a></li>
+              <li><a class="menu__item" href="#">Case studies</a></li>
+              <li><a class="menu__item" href="#">Resources</a></li>
+            </ul>
+          </div>
+
           <ul class="menu">
             <li class="menu__items">
               <a href="#">Product</a>
@@ -29,14 +44,14 @@
             <li class="menu__items">
               <a href="#">Resources</a>
             </li>
-        </ul>
-      </div>
+          </ul>
+        </div>
         <div class="login_buttons">
           <a href="#" class="log_in-button">Log in</a>
           <a href="#" class="try_it-button">Try it free</a>
         </div>
       </div>
-    <hr>
+      <hr>
 
     <div class="section_two">
       <div class="content_two">
@@ -228,7 +243,7 @@
             <p class="head_product">Company</p>
             <a class="footer_padding" href="#">About</a>
             <a class="footer_padding" href="#">Blog</a>
-            <a class="footer_padding" href="#">Careers | We`re Hiring</a>
+            <a class="footer_padding" href="#">Careers We`re Hiring</a>
             <a class="footer_padding" href="#">Case Studies</a>
             <a class="footer_padding" href="#">Media Kit</a>
           </div>
